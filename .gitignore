@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset (kept outside repo/submission per course & Kaggle terms)
+casting_512x512/
+casting_data/
+
+# Python / Jupyter caches & checkpoints
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Saved model weights & OS metadata
+*.pt
+*.pth
+*.ckpt
+.DS_Store
+Thumbs.db
